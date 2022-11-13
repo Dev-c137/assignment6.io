@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #362417;
+}
+
+/* header */
+.header {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.inner-header {
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo-container h1 {
+    color: #F1DABF;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    margin: 0px 20px;
+
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: #F1DABF;
+}
+
+
+/* about us page */
+
+.about-img {
+    margin-left: 20px;
+}
+.about-us-desc {
+
+    /* display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1DABF;
+    width: 1000px;
+    height: 100%;
+    padding: 20px;
+    margin: 0 auto; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vw;
+    background-color: #F1DABF;
+    margin-top: 10vw;
+}
+.desc{
+    padding: 20px;
+}
+
+/* menu and slider */
+.menu-container{
+    width: 100%;
+    height: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+    color: #ffffff;
+}
+.swiper .swiper-pagination-bullet-active {
+    background: #ffffff;
+}
+
+/* footer */
+.footer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.inner-footer {
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.foot-logo-container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.foot-logo-container h1 {
+    color: #F1DABF;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.foooter-navigation {
+    float: right;
+    height: 100%;
+}
+
+.foooter-navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    margin: 0px 20px;
+
+}
+
+.foooter-navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: #F1DABF;
+}
