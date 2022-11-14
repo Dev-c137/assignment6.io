@@ -19,6 +19,7 @@ body {
     height: 80px;
     padding: 20px;
     overflow: hidden;
+    position: fixed;
 }
 
 .inner-header {
